@@ -9,5 +9,6 @@ Member page
 <?PHP
 	echo "NAME : ".$_SESSION['NAME']."<br>";
 	echo "LAST : ".$_SESSION['LAST']."<br>";
+	echo "<a href='changepass.php'>Change pass</a><br>";
 	echo "<a href='Logout.php'>Logout</a>";
 ?>
